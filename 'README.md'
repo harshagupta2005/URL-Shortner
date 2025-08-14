@@ -1,0 +1,8 @@
+# URLShortener
+
+A Java-based simple URL shortener that converts long links into short codes.
+
+## How to Run
+```bash
+javac src/Main.java
+java -cp src Main

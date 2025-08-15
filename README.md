@@ -1,59 +1,48 @@
-URL Shortener (Java)
+# 🔗 URL Shortener
 
-A simple URL shortening tool built in Java. This project takes a long URL and converts it into a shorter, easy-to-share version using the TinyURL API.
- Features
+A **Java-based URL Shortener** that converts long, complex URLs into short, easy-to-share links.  
+Perfect for learning Java basics, working with data structures, and understanding hashing techniques.
 
-Shorten any valid URL in seconds.
+---
 
-Written in pure Java — no heavy frameworks.
+##  Features
+-  Shorten long URLs into unique short codes
+-  Retrieve the original URL from a short code
+-  Simple and lightweight console-based interface
+-  Beginner-friendly Java code
 
-Uses java.net for network calls.
+---
 
-Easy to integrate into other Java applications.
+##  Tech Stack
+- Language: Java
+- Version Control: Git & GitHub
+  
 
-🛠 Prerequisites
-
-Before running this project, make sure you have:
-
-Java JDK 8 or higher installed.
-
-An internet connection (to access the TinyURL API).
-
-How to Run
-
-Clone the repository
-
-git clone https://github.com/harshagupta2005/URL-Shortener-Java
-
-
-Navigate to the project folder
-
-cd URL-Shortener-Java
+ Project Structure
+ URL-Shortener/
+├── src/
+│ ├── Main.java # Entry point of the application
+│ ├── UrlShortenerService.java # Logic for shortening & retrieving URLs
+│ └── utils/
+│ └── HashGenerator.java # Helper for generating short codes
+├── README.md
+├── .gitignore
 
 
-Compile the Java file
+---
 
-javac URLShortener.java
+  How to Run
+1. Clone the repository:**
+   bash
+   git clone https://github.com/HarshaGupta/URLShortner.git
+   cd "URL Shortner"
+   javac Main.java
+Run the project:
 
+java Main
 
-Run the program
+Enter your long URL: https://example.com/some/very/long/link
+Short URL: http://short.ly/abc123
 
-java URLShortener
-
-
-Enter your long URL when prompted, and get the shortened version instantly.
- Example Output
-Enter the URL: https://www.example.com/very/long/url/path  
-Shortened URL: https://tinyurl.com/abc12Libraries Used
-
-java.net.HttpURLConnection → To make HTTP requests.
-
-java.io.BufferedReader → To read API responsFuture Improvements
-
-Add a GUI with Java Swing or JavaFX.
-
-Add support for multiple URL shortening services.
-
-Store and retrieve shortened URLs from a local database.
 
 

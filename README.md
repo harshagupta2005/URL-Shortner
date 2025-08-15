@@ -1,48 +1,55 @@
-# 🔗 URL Shortener
+URL Shortner (Java Project)
 
-A **Java-based URL Shortener** that converts long, complex URLs into short, easy-to-share links.  
-Perfect for learning Java basics, working with data structures, and understanding hashing techniques.
-
----
-
-##  Features
--  Shorten long URLs into unique short codes
--  Retrieve the original URL from a short code
--  Simple and lightweight console-based interface
--  Beginner-friendly Java code
+This is a simple Java project that takes a long website link (URL) and turns it into a short, easy-to-share link.  
+When you open the short link, it redirects you to the original website.
 
 ---
+ Features
+- Converts long links into short links
+- Short link redirects to the original website
+- Easy to use from the console or GUI
+- Can be improved to store and retrieve URLs
 
-##  Tech Stack
-- Language: Java
-- Version Control: Git & GitHub
-  
+---
 
  Project Structure
- URL-Shortener/
+URLShortner/
+│
 ├── src/
-│ ├── Main.java # Entry point of the application
-│ ├── UrlShortenerService.java # Logic for shortening & retrieving URLs
-│ └── utils/
-│ └── HashGenerator.java # Helper for generating short codes
-├── README.md
-├── .gitignore
-
+│ └── Main.java # Main Java program
+├── .gitignore # Files to ignore in Git
+└── README.md # This file
 
 ---
 
-  How to Run
-1. Clone the repository:**
-   bash
-   git clone https://github.com/HarshaGupta/URLShortner.git
-   cd "URL Shortner"
-   javac Main.java
-Run the project:
+ How to Run the Project
+ 1. Download or Clone the Project
+```bash
+git clone https://github.com/harshagupta2005/URLShortner.git
+cd URLShortner
+Compile the Java File
+javac src/Main.java
 
-java Main
+3. Run the Java Program
+java -cp src Main
 
-Enter your long URL: https://example.com/some/very/long/link
-Short URL: http://short.ly/abc123
+Example Output
+Enter a long URL: https://www.example.com/very/long/link
+Shortened URL: http://short.ly/abc123
 
+Technology Used
 
+Language: Java
+
+IDE: VS Code / IntelliJ IDEA / Eclipse
+
+Libraries: Core Java (no external dependencies)
+
+Future Improvements
+
+Add a database to store URLs
+
+Create a web interface
+
+Track how many times a short link is opened
 
